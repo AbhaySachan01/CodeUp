@@ -20,7 +20,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-white px-6 py-12">
+    <footer className="bg-gray-800 text-white px-6 py-12">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-start gap-10">
         {/* Logo */}
         <div className="flex-shrink-0 mr-10">

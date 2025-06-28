@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>LearnUp | Home Page</title>
+        <title>CodeUp | Home Page</title>
         <meta name="description" content="LearnUp Home Page" />
         <meta
           name="keywords"
@@ -18,11 +18,11 @@ export default function Home() {
         />
       </Helmet>
       <LandingPage />
-      <Features />
-      <TopCourses />
-      <Content />
-      <ContactUs />
-      <Stats />
+      {/* <Features /> */}
+      {/* <TopCourses /> */}
+      {/* <Content /> */}
+      {/* <ContactUs /> */}
+      {/* <Stats /> */}
     </div>
   );
 }

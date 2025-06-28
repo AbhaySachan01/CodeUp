@@ -26,11 +26,10 @@ function Navbar() {
     setUserInfo(detail);
   });
   const CURRENT_USER_TYPE = useSelector((state) => state.userData.role);
-  // console.log(CURRENT_USER_TYPE);
   return (
     <nav
       className={`${
-        path == "/" || path == "home" ? "bg-cyan-950" : "bg-amber-950"
+         "bg-gray-900"
       } from-cyan-950 via-cyan-950 px-2 sm:px-4 py-2.5`}
     >
       <div className="container flex flex-wrap items-center justify-between mx-auto">
